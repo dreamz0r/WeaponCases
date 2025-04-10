@@ -41,15 +41,10 @@ class CfgVehicles
 		{
 			"Melee"
 		};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={0,0};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -59,32 +54,6 @@ class CfgVehicles
 			"WeaponCases\data\melee_case_co.paa",
 			"WeaponCases\data\melee_case_co.paa",
 			"WeaponCases\data\melee_case_co.paa"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
 		};
 	};
 	class Pistol_Case: SmallProtectorCase
@@ -99,15 +68,10 @@ class CfgVehicles
 			"magazine2",
 			"magazine2"
 		};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={0,0};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -118,32 +82,6 @@ class CfgVehicles
 			"WeaponCases\data\pistol_case_co.paa",
 			"WeaponCases\data\pistol_case_co.paa"
 		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
-		};
 	};
 	class Shotgun_Case: SmallProtectorCase
 	{
@@ -153,15 +91,10 @@ class CfgVehicles
 		model="\dz\gear\containers\Protector_Case.p3d";
 		attachments[]=
 		{};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={0,0};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -171,32 +104,6 @@ class CfgVehicles
 			"WeaponCases\data\shotgun_case_co.paa",
 			"WeaponCases\data\shotgun_case_co.paa",
 			"WeaponCases\data\shotgun_case_co.paa"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
 		};
 	};
 	class SMG_Case: SmallProtectorCase
@@ -211,15 +118,10 @@ class CfgVehicles
 			"magazine2",
 			"magazine2"
 		};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={0,0};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -229,32 +131,6 @@ class CfgVehicles
 			"WeaponCases\data\smg_case_co.paa",
 			"WeaponCases\data\smg_case_co.paa",
 			"WeaponCases\data\smg_case_co.paa"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
 		};
 	};
 	class AR_Case: SmallProtectorCase
@@ -269,15 +145,10 @@ class CfgVehicles
 			"magazine2",
 			"magazine2"
 		};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={0,0};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -287,32 +158,6 @@ class CfgVehicles
 			"WeaponCases\data\ar_case_co.paa",
 			"WeaponCases\data\ar_case_co.paa",
 			"WeaponCases\data\ar_case_co.paa"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
 		};
 	};
 	class Sniper_Case: SmallProtectorCase
@@ -327,15 +172,10 @@ class CfgVehicles
 			"magazine2",
 			"magazine2"
 		};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={0,0};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -345,32 +185,6 @@ class CfgVehicles
 			"WeaponCases\data\sniper_case_co.paa",
 			"WeaponCases\data\sniper_case_co.paa",
 			"WeaponCases\data\sniper_case_co.paa"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
 		};
 	};
 	class Explosives_Case: SmallProtectorCase
@@ -386,15 +200,10 @@ class CfgVehicles
 			"VestGrenadeC",
 			"VestGrenadeD"
 		};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={0,0};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -405,32 +214,6 @@ class CfgVehicles
 			"WeaponCases\data\explosives_case_co.paa",
 			"WeaponCases\data\explosives_case_co.paa"
 		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
-		};
 	};
 	class Ammo_Case: SmallProtectorCase
 	{
@@ -440,15 +223,10 @@ class CfgVehicles
 		model="\dz\gear\containers\Protector_Case.p3d";
 		attachments[]=
 		{};
-		weight=1000;
-		rotationFlags=17;
 		itemSize[]={3,3};
 		itemsCargoSize[]={4,1};
 		inventorySlot[]+=
 		{};
-		stackedRandom=0;
-		allowOwnedCargoManipulation=1;
-		randomQuantity=2;
 		hiddenSelections[]=
 		{
 			"zbytek"
@@ -458,32 +236,6 @@ class CfgVehicles
 			"WeaponCases\data\ammo_case_co.paa",
 			"WeaponCases\data\ammo_case_co.paa",
 			"WeaponCases\data\ammo_case_co.paa"
-		};
-		class DamageSystem
-		{
-			class GlobalHealth
-			{
-				class Health
-				{
-					hitpoints=500;
-				};
-			};
-		};
-		class AnimEvents
-		{
-			class SoundWeapon
-			{
-				class pickUpItem
-				{
-					soundSet="Shirt_pickup_SoundSet";
-					id=797;
-				};
-				class drop
-				{
-					soundset="Shirt_drop_SoundSet";
-					id=898;
-				};
-			};
 		};
 	};
 };
