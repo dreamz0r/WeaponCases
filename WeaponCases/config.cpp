@@ -30,8 +30,8 @@ class CfgMods
 
 class CfgVehicles
 {
-	class Container_Base;
-	class Melee_Case: Container_Base
+	class SmallProtectorCase;
+	class Melee_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Melee Case";
@@ -87,7 +87,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class Pistol_Case: Container_Base
+	class Pistol_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Pistol Case";
@@ -145,7 +145,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class Shotgun_Case: Container_Base
+	class Shotgun_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Shotgun Case";
@@ -199,7 +199,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class SMG_Case: Container_Base
+	class SMG_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Sub Machine Gun Case";
@@ -257,7 +257,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class AR_Case: Container_Base
+	class AR_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Assault Rifle Case";
@@ -315,7 +315,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class Sniper_Case: Container_Base
+	class Sniper_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Sniper Case";
@@ -373,7 +373,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class Explosives_Case: Container_Base
+	class Explosives_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Explosives Case";
@@ -432,7 +432,7 @@ class CfgVehicles
 			};
 		};
 	};
-	class Ammo_Case: Container_Base
+	class Ammo_Case: SmallProtectorCase
 	{
 		scope=2;
 		displayName="Ammo Case";
